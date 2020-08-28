@@ -252,6 +252,16 @@ h6{
   color: #A92012 !important;
 }
 
+.navbar-nav  .nav-item .nav-link:hover{
+  color: #db3522 !important;
+}
+
+.modal-body .navbar-nav  .nav-item .nav-link:hover{
+  background-color: #A92012;
+  color: #fff !important;
+  transition: 350ms;
+}
+
 .img4{
   height: 60px;
 }
@@ -366,7 +376,7 @@ h6{
   left: 50%;
   transform: translateX(-50%);
   font-size:35px;
-  background: #be2d1d;
+  background: #c73424;
   padding: 12px;
   color: #fff;
   border-radius:50%;
@@ -382,6 +392,22 @@ h6{
   display: block;
   font-weight: 600;
   color: #fff;
+}
+
+
+.country-btn{
+  background-color: #A92012;
+  width: auto;
+  color: #fff !important;
+  display: block;
+  height: auto;
+  margin-left: 1.4rem;
+}
+
+.img1{
+  float: right; 
+  margin-left:10px; 
+  margin-top: 2px;
 }
 
 .services{
@@ -404,6 +430,20 @@ h6{
 @media (max-width: 600px) {
   .btn-main {
   margin-bottom: 4rem;
+  }
+
+  .country-btn{
+    background-color: #A92012;
+    width: 160px;
+    color: #fff !important;
+    display: block;
+  }
+
+  .img1{
+    float: right; 
+    margin-left:0px; 
+    margin-top: 2px;
+    margin-right: .5rem;
   }
 
   .services .card{
