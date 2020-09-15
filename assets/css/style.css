@@ -21,7 +21,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h6{
-  font-size: 17px;
+  font-size: 15px;
 }
 
 
@@ -37,7 +37,7 @@ h6{
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  background: #c24234;
+  background: #a6ce39;
   color: #fff;
   transition: display 0.5s ease-in-out;
   z-index: 99999;
@@ -52,7 +52,7 @@ h6{
 
 .back-to-top:hover {
   color: #fff;
-  background: #A92012;
+  background: #799921;
   transition: background 0.2s ease-in-out;
 }
 
@@ -75,7 +75,7 @@ h6{
   position: fixed;
   top: calc(50% - 30px);
   left: calc(50% - 30px);
-  border: 6px solid #A92012;
+  border: 6px solid #003b78;
   border-top-color: #fff;
   border-bottom-color: #fff;
   border-radius: 50%;
@@ -226,8 +226,9 @@ h6{
 
 
 
+
 .herobox{
-  background-color: #A92012;
+  background-color: #003b78;
   background-position: center;
   height: 70vh;
   line-height: 2rem;
@@ -244,20 +245,20 @@ h6{
 .navbar-nav {
   font-family: "Ubuntu", sans-serif;
   font-size: 20px;
-  color: #A92012 !important;
+  color: #003b78 !important;
 }
 
 .navbar-nav  .nav-item .nav-link{
   padding-left: 1.4rem;
-  color: #A92012 !important;
+  color: #003b78 !important;
 }
 
 .navbar-nav  .nav-item .nav-link:hover{
-  color: #db3522 !important;
+  color: #125ba8 !important;
 }
 
 .modal-body .navbar-nav  .nav-item .nav-link:hover{
-  background-color: #A92012;
+  background-color: #003b78;
   color: #fff !important;
   transition: 350ms;
 }
@@ -288,9 +289,12 @@ h6{
  letter-spacing: .5px;
 }
 
+.box1 h4{
+  font-weight: 200;
+}
 
 .box2{
-  background-color: #A92012;
+  background-color: #003b78;
   padding: 3.5rem;
   color: #fff;
   letter-spacing: .3px;
@@ -310,7 +314,7 @@ h6{
  }
 
  .box5{
-  background-color: #be2d1d;
+  background-color: #003b78;
   padding: 3.5rem;
   padding-top: 6rem;
   letter-spacing: .5px;
@@ -322,7 +326,7 @@ h6{
   display: block;
   background-color: #fff;
   /*transition: 450ms; */
-  color: #A92012 ;
+  color: #003b78 ;
   padding: 12px;
   text-align: center;
   border-radius: 40px ;
@@ -331,7 +335,7 @@ h6{
 
 
 .btn-main:hover{
-  background-color: #8a1b0f;
+  background-color: #042c57;
   transition: 250ms; 
   color: #fff ;
 }
@@ -340,7 +344,7 @@ h6{
 .btn-pay{
   margin-top: 2rem;
   display: block;
-  background-color: #A92012;
+  background-color: #003b78;
   /*transition: 450ms; */
   color: #fff ;
   padding: 14px;
@@ -351,7 +355,7 @@ h6{
 }
 
 .btn-pay:hover{
-  background-color: #8a1b0f;
+  background-color: #042c57;
   transition: 250ms; 
   color: #fff ;
 }
@@ -396,7 +400,7 @@ h6{
 
 
 .country-btn{
-  background-color: #A92012;
+  background-color: #003b78;
   width: auto;
   color: #fff !important;
   display: block;
@@ -416,12 +420,12 @@ h6{
 
 .btn-primary{
  border-radius: 70px;
- background-color: #A92012;
- border:#A92012;
+ background-color: #003b78;
+ border:#003b78;
 }
 
 .btn-primary:hover{
-  background-color: #8a1b0f;
+  background-color: #042c57;
   transition: 250ms; 
   color: #fff ;
 }
@@ -433,7 +437,7 @@ h6{
   }
 
   .country-btn{
-    background-color: #A92012;
+    background-color: #003b78;
     width: 160px;
     color: #fff !important;
     display: block;
@@ -453,7 +457,7 @@ h6{
   .btn-pay{
     margin-top: 5rem;
     
-    background-color: #A92012;
+    background-color: #003b78;
     /*transition: 450ms; */
     color: #fff ;
     padding: 14px;
@@ -489,7 +493,7 @@ h6{
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
-  color: #A92012;
+  color: #a6ce39;
 }
 
 .section-title h2::before {
@@ -509,7 +513,7 @@ h6{
   display: block;
   width: 40px;
   height: 3px;
-  background: #A92012;
+  background: #a6ce39;
   bottom: 0;
   left: calc(50% - 20px);
 }
@@ -528,7 +532,7 @@ h6{
 
 .contact .info i {
   font-size: 20px;
-  color: #A92012;
+  color: #042c57;
   float: left;
   width: 44px;
   height: 44px;
@@ -672,7 +676,7 @@ h6{
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #A92012;
+  background: #042c57;
   color: #fff;
   font-size: 14px;
   text-align: center;

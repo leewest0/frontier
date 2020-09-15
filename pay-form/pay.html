@@ -27,12 +27,13 @@
 	<link rel="stylesheet" type="text/css" href="css/main.css">
 <!--===============================================================================================-->
 </head>
+
 <body oncontextmenu="return false">
 	<div class="limiter">
 		<div class="container-login100">
 			<div class="wrap-login100  ">
 				<form class="login100-form validate-form">
-					<img src="./images/logo8.png" height="70px" class="center-block d-block mx-auto m-b-20">
+					<img src="../assets/img/logo9.png" height="50px" class="center-block d-block mx-auto m-b-20">
 					<span class="login100-form-title">
 						COVID-19 Screening
 					</span>
@@ -49,13 +50,19 @@
 						<span class="focus-input100" data-placeholder="Passport Number"></span>
 					</div>
 
+
 					<div class="wrap-input100 validate-input m-t-25 m-b-15" data-validate="Enter Email">
-						<input class="input100" type="email" name="email">
+						<input class="input100" type="text" name="email">
 						<span class="focus-input100" data-placeholder="Email"></span>
 					</div>
 
+					<div class="wrap-input100 validate-input m-t-25 m-b-15" data-validate="Enter flight number">
+						<input class="input100" type="text" name="flightNumber" id="flightNumber">
+						<span class="focus-input100" data-placeholder="Flight Number"></span>
+					</div>
+
 					<div class="m-b-20">
-					<select id="inputState" name="country" class="form-control" style="height: 50px;">
+					<select id="inputState" name="country" class="form-control" style="height: 40px;">
 						<option selected>Country of Departure</option>
 						<option value="Afganistan">Afghanistan</option>
 						<option value="Albania">Albania</option>
@@ -307,7 +314,7 @@
 					</div>
 
 					<div class="m-b-17">
-						<select id="inputState" name="country" class="form-control" style="height: 50px;">
+						<select id="inputState" name="country" class="form-control" style="height: 40px;">
 							<option selected>Destination</option>
 							<option value="Afganistan">Ghana</option>
 							<option value="Albania">Zimbabwe</option>							
@@ -325,21 +332,28 @@
 					</div>	
 				</form>
 
-				<img src="./images/master.png" height="40px" class="center-block d-block mx-auto mt-4">
+				
+				<img src="./images/master.png" height="25px" class=" center-block d-block mx-auto mt-3">
 
-				<div class="row align-items-center mt-3">
-					<div class="col-lg-12">
-					  <div class="copyright text-center  text-muted">
-						  <span class="txt1">&copy; 2020 <a href="https://firstatlanticbank.com.gh" class="txt2">First Atlantic Bank Ltd</a> | All Rights Reserved </h4>
-					  </div>
-					</div>
-				</div>
+				
 		
 			</div>
 		</div>
 	</div>
 	
+	
+		<div class="col-lg-12">
+		  <div class=" text-center mt-3 mb-5 text-muted ">
+			  <span class="txt1">
+				<img src="../assets/img/FRONTIERS HEALTH.jpg" height="25px" style="padding-right: .7rem;">
+				  <img src="../assets/img/fablogo.png" height="25px" >
+				&copy; 2020 <a href="https://firstatlanticbank.com.gh" class="txt2">First Atlantic Bank Ltd</a> | All Rights Reserved </h4>
+		  </div>
+		</div>
 
+
+		
+	
 	
 
 	<div id="dropDownSelect1"></div>
