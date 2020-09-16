@@ -165,7 +165,7 @@ h6{
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #fff;
-  background: #A92012;
+  background: #003b78;
 }
 
 .nav-menu a:hover span, .nav-menu .active > a span, .nav-menu li:hover > a span {
@@ -210,7 +210,7 @@ h6{
 }
 
 .mobile-nav-active .mobile-nav-toggle i {
-  color: #A92012;
+  color: #003b78;
 }
 
 /*--------------------------------------------------------------
@@ -370,7 +370,7 @@ h6{
   width: 100%;
   position: relative;
   text-align: center;
-  background: #A92012;
+  background: #003b78;
   border-radius: 20px;
 }
 
@@ -380,7 +380,7 @@ h6{
   left: 50%;
   transform: translateX(-50%);
   font-size:35px;
-  background: #c73424;
+  background: #003b78;
   padding: 12px;
   color: #fff;
   border-radius:50%;
@@ -564,7 +564,7 @@ h6{
 }
 
 .contact .info .email:hover i, .contact .info .address:hover i, .contact .info .phone:hover i {
-  background: #A92012;
+  background: #042c57;
   color: #fff;
 }
 
@@ -710,7 +710,7 @@ h6{
 #footer .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #A92012;
+  background: #042c57;
   color: #fff;
   line-height: 1;
   padding: 8px 0;
@@ -723,7 +723,7 @@ h6{
 }
 
 #footer .social-links a:hover {
-  background: #A92012;
+  background: #042c57;
   color: #fff;
   text-decoration: none;
 }
