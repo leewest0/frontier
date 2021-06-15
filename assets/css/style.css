@@ -20,8 +20,13 @@ h1, h2, h3, h4, h5, h6 {
   font-family: "Ubuntu", sans-serif;
 }
 
+.box1 h4 {
+	font-size:22px;
+	font-weight:200;
+}
+
 h6{
-  font-size: 15px;
+  font-size: 17px;
 }
 
 
@@ -226,7 +231,6 @@ h6{
 
 
 
-
 .herobox{
   background-color: #003b78;
   background-position: center;
@@ -289,9 +293,6 @@ h6{
  letter-spacing: .5px;
 }
 
-.box1 h4{
-  font-weight: 200;
-}
 
 .box2{
   background-color: #003b78;
@@ -315,7 +316,7 @@ h6{
 
  .box5{
   background-color: #003b78;
-  padding: 3.5rem;
+  padding: 2rem;
   padding-top: 6rem;
   letter-spacing: .5px;
   color: #fff;
@@ -333,8 +334,25 @@ h6{
   letter-spacing: .5px;
 }
 
+.btn-main2{
+  margin-top: 1.9rem;
+  display: block;
+  background-color: #fff;
+  /*transition: 450ms; */
+  color: #003b78 ;
+  padding: 12px;
+  text-align: center;
+  border-radius: 40px ;
+  letter-spacing: .5px;
+}
 
 .btn-main:hover{
+  background-color: #042c57;
+  transition: 250ms; 
+  color: #fff ;
+}
+
+.btn-main2:hover{
   background-color: #042c57;
   transition: 250ms; 
   color: #fff ;
@@ -430,11 +448,208 @@ h6{
   color: #fff ;
 }
 
+/* ----------- iPhone 5, 5S, 5C and 5SE ----------- */
+/* Landscape */
+@media only screen 
+  and (min-device-width: 320px) 
+  and (max-device-width: 568px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) 
+{
+ #hero3 {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/bg6.jpg") top right no-repeat;
+  background-size: cover;
+  position: relative;
+}
 
-@media (max-width: 600px) {
-  .btn-main {
-  margin-bottom: 4rem;
+ .herobox{
+    height: 100vh;
+    opacity: 0.9;
+    text-align: center;
+    color: white;
   }
+  
+  .btn-main {
+  margin-bottom: 2.5rem;
+  } 
+
+  .country-btn{
+    background-color: #003b78;
+    width: 160px;
+    color: #fff !important;
+    display: block;
+  }
+
+  .img1{
+    float: right; 
+    margin-left:0px; 
+    margin-top: 2px;
+    margin-right: .5rem;
+  }
+
+  .services .card{
+    padding-bottom: 1rem !important;
+  }
+
+  .btn-pay{
+    margin-top: 5rem;
+    
+    background-color: #003b78;
+    /*transition: 450ms; */
+    color: #fff ;
+    padding: 14px;
+    width: auto;
+    text-align: center;
+    border-radius: 40px ;
+    letter-spacing: .5px;
+  }
+ 
+}
+
+
+/* ----------- iPhone 6, 6S, 7 and 8 ----------- */
+/* Landscape */
+@media only screen 
+  and (min-device-width: 375px) 
+  and (max-device-width: 667px) 
+  and (-webkit-min-device-pixel-ratio: 2)
+  and (orientation: landscape) { 
+
+ #hero3 {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/bg6.jpg") top right no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+ .herobox{
+    height: 100vh;
+    opacity: 0.9;
+    text-align: center;
+    color: white;
+  }
+  
+  .btn-main {
+  margin-bottom: 2.5rem;
+  } 
+
+  .country-btn{
+    background-color: #003b78;
+    width: 160px;
+    color: #fff !important;
+    display: block;
+  }
+
+  .img1{
+    float: right; 
+    margin-left:0px; 
+    margin-top: 2px;
+    margin-right: .5rem;
+  }
+
+  .services .card{
+    padding-bottom: 1rem !important;
+  }
+
+  .btn-pay{
+    margin-top: 5rem;
+    
+    background-color: #003b78;
+    /*transition: 450ms; */
+    color: #fff ;
+    padding: 14px;
+    width: auto;
+    text-align: center;
+    border-radius: 40px ;
+    letter-spacing: .5px;
+  }
+ 
+}
+
+/* ----------- iPhone 6+, 7+ and 8+ ----------- */
+/* Landscape */
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: landscape) { 
+
+#hero3 {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/bg6.jpg") top right no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+ .herobox{
+    height: 100vh;
+    opacity: 0.9;
+    text-align: center;
+    color: white;
+  }
+  
+  .btn-main {
+  margin-bottom: 2.5rem;
+  } 
+
+  .country-btn{
+    background-color: #003b78;
+    width: 160px;
+    color: #fff !important;
+    display: block;
+  }
+
+  .img1{
+    float: right; 
+    margin-left:0px; 
+    margin-top: 2px;
+    margin-right: .5rem;
+  }
+
+  .services .card{
+    padding-bottom: 1rem !important;
+  }
+
+  .btn-pay{
+    margin-top: 5rem;
+    
+    background-color: #003b78;
+    /*transition: 450ms; */
+    color: #fff ;
+    padding: 14px;
+    width: auto;
+    text-align: center;
+    border-radius: 40px ;
+    letter-spacing: .5px;
+  }
+ 
+}
+
+/* MOBILE */
+@media (max-width: 600px) {
+
+#hero3 {
+  width: 100%;
+  height: 80vh;
+  background: url("../img/bg6.jpg") top right no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.herobox{
+    height: 100vh;
+    opacity: 0.9;
+    text-align: center;
+    color: white;
+  }
+	
+  .btn-main {
+  margin-bottom: 2.5rem;
+  } 
 
   .country-btn{
     background-color: #003b78;
@@ -467,12 +682,7 @@ h6{
     letter-spacing: .5px;
   }
 
-  .herobox{
-    height: 100vh;
-    opacity: 0.9;
-    text-align: center;
-    color: white;
-  }
+  
  
 }
 
