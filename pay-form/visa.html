@@ -12,9 +12,6 @@
 	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="fonts/iconic/css/material-design-iconic-font.min.css">
-
-	<link href="/assets/vendor/icofont/icofont.min.css" rel="stylesheet"> 
-	
 <!--===============================================================================================-->
 	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
 <!--===============================================================================================-->	
@@ -33,12 +30,23 @@
 
 <body oncontextmenu="return false">
 	<div class="limiter">
-		<div class="container-login100">
-			<div class="wrap-login100  ">
-				<form class="login100-form validate-form">
+		<div class="container">
+			<div class="row">
+				<!-- ======= CREDIT CARD BUTTON ======= -->
+				<div class="col-lg-6 col-sm-12 text-center float-left" style="font-size: 1.2rem; padding-left: 3rem;">
+					<button class="login100-form-btn2">
+						CREDIT CARD
+					</button>
+					<img src="../pay-form/images/visa.png" height="30px" class="center-block d-block mx-auto mt-2"/>
+
+				</div>
+
+				<!-- ======= MOMO BUTTON ======= -->
+				<div class="col-lg-6 col-sm-12 text-center " style="font-size: 1.2rem;" >
+						<form class="login100-form validate-form">
 					<img src="../assets/img/logo9.png" height="50px" class="center-block d-block mx-auto m-b-20">
 					<span class="login100-form-title">
-						COVID-19 Screening
+						CHECKOUT
 					</span>
 					<p class="text-center mt-2">Please enter your details <br>
 					as shown on your international passport</p>
@@ -48,22 +56,10 @@
 						<span class="focus-input100" data-placeholder="Full Name"></span>
 					</div>
 
-					
-					<div class="m-b-20" data-toggle="tooltip" data-placement="right" title="Please Enter The Country Where Passport Was Issued">
-						<select id="inputState" name="issueCountry" class="form-control" style="height: 40px;" >
-							<option selected>Select Of Nationality</option>
-							<option value="Afganistan">Passport</option>
-							<option value="Albania">Ghana Card</option>
-							<option value="Algeria">Dual Citizenship</option>
-						
-							
-						 </select>
-						</div>
-
-						<div class="wrap-input100 validate-input m-t-25 m-b-15" data-validate="Enter passport number" >
-							<input class="input100" type="text" name="passport">
-							<span class="focus-input100" data-placeholder="Passport Number"></span>
-						</div>
+					<div class="wrap-input100 validate-input m-t-25 m-b-15" data-validate="Enter passport number" >
+						<input class="input100" type="text" name="passport">
+						<span class="focus-input100" data-placeholder="Passport Number"></span>
+					</div>
 
 					<div class="m-b-20" data-toggle="tooltip" data-placement="right" title="Please Enter The Country Where Passport Was Issued">
 						<select id="inputState" name="issueCountry" class="form-control" style="height: 40px;" >
@@ -579,15 +575,6 @@
 					 </select>
 					</div>
 
-					<div class="form-group mt-4">
-						<div class="form-check">
-						  <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
-						  <label class="form-check-label" for="invalidCheck2" style="font-size: 14px;">
-							I understand and accept to abide by any current and future COVID-19 
-							protocols that may be in force by the lawful Authorities in Ghana.
-						  </label>
-						</div>
-					</div>
 					
 					
 
@@ -598,20 +585,28 @@
 					-->
 
 					<div class="container-login100-form-btn">
-						<!--<a href="checkout.html" class="login100-form-btn btn"> <h4 >Pay </h4></a> -->
-						<a href="#" data-toggle="modal" data-target="#print" class="login100-form-btn btn"> <h4 >Pay </h4></a>
+						<!---<a href="http://54.190.122.193/Client" class="login100-form-btn btn"> <h4 >Pay $150 </h4></a>
+						-->
 						
-						
-						<!---<button class="login100-form-btn">
-							Pay
-						</button> -->
+						<button class="login100-form-btn">
+							<i class="fa fa-lock" aria-hidden="true"></i> Pay
+						</button>
+						<i class="fa fa-shield" aria-hidden="true"></i>Secure payment
 
 					</div>	
 				</form>
 
 				
-				<img src="./images/master.png" height="55px" class=" center-block d-block mx-auto mt-3">
+				<img src="./images/master.png" height="25px" class=" center-block d-block mx-auto mt-3">
 
+				
+				</div>
+				
+			</div>
+		</div>
+		
+		<div class="container-login100">
+			<div class="wrap-login100  ">
 				
 		
 			</div>
@@ -629,38 +624,9 @@
 		</div>
 
 
-   <!-- PRINT RECEIPT MODAL -->  
-<div class="modal fade" id="print" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-	<div class="modal-dialog modal-dialog-centered">
-	  <div class="modal-content">
-		<div class="modal-header">
-		  <h5 class="modal-title" id="exampleModalLabel">Do you want to print the receipt?</h5>
-		  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-			<span aria-hidden="true">&times;</span>
-		  </button>
-		</div>
-		<div class="modal-body">
-		  <ul class="navbar-nav ml-auto">
-			<li class="nav-item " style="border: solid 1px #b1b1b1; margin-bottom: .5rem;">
-			  <a class="nav-link" href="pay-form/pay1.html"> <i class="icofont-ui-check" style="font-size: 26px; color: green; float: left; margin-right:10px;"></i>   Accept </a>
-			</li>
-			<li class="nav-item " style="border: solid 1px #b1b1b1; margin-bottom: .5rem;">
-			  <a class="nav-link" href="pay-form/pay.html"><i class="icofont-ui-close" style="font-size: 26px; color: red; float: left; margin-right:10px;"></i> Decline </a>
-			</li>
-			
-		  </ul>
-		</div>
 		
-		<div class="modal-footer">
-		  
-		  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-		  
-		</div>
-	  </div>
-	</div>
-  </div>
-
-  
+	
+	
 
 	<div id="dropDownSelect1"></div>
 	
